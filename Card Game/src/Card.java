@@ -74,7 +74,6 @@ public class Card
 				for(Card fred: selectedCard)
 					{
 						System.out.println(fred.getRank()+" of "+fred.getSuit());
-						
 					}
 			}
 		public String getSuit()
