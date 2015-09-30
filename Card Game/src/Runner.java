@@ -6,6 +6,7 @@ public class Runner
 			{
 				War.Rules();
 				Card.CardSelector();
+				War.Deck();
 			}
 
 	}

@@ -70,11 +70,7 @@ public class Card
 				selectedCard.add(new Card("Clubs","Queen",10));
 				selectedCard.add(new Card("Clubs","King",10));
 				
-				Collections.shuffle(selectedCard);
-				for(Card fred: selectedCard)
-					{
-						System.out.println(fred.getRank()+" of "+fred.getSuit());
-					}
+				
 			}
 		public String getSuit()
 			{

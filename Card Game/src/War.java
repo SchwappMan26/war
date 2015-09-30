@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.Scanner;
 public class War
 	{
@@ -16,6 +17,14 @@ public class War
 				System.out.println(" ");
 				System.out.println("You will be playing against a computer, good luck ");
 				System.out.println("");
+			}
+		public static void Deck()
+			{
+				Collections.shuffle(Card.selectedCard);
+			}
+		public static void ThroughTheCards()
+			{
+				 
 			}
 		
 	}
